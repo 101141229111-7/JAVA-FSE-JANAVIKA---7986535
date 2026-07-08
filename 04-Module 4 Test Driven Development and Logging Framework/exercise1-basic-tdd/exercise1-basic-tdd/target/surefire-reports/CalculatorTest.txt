@@ -1,0 +1,114 @@
+-------------------------------------------------------------------------------
+Test set: CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! -- in CalculatorTest
+CalculatorTest.testDivideByZero -- Time elapsed: 0.010 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The declared package "com.example" does not match the expected package ""
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+
+	at CalculatorTest.<init>(CalculatorTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+CalculatorTest.testAdd -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The declared package "com.example" does not match the expected package ""
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+
+	at CalculatorTest.<init>(CalculatorTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+CalculatorTest.testSubtract -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The declared package "com.example" does not match the expected package ""
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+
+	at CalculatorTest.<init>(CalculatorTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+CalculatorTest.testDivide -- Time elapsed: 0 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The declared package "com.example" does not match the expected package ""
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+
+	at CalculatorTest.<init>(CalculatorTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+CalculatorTest.testMultiply -- Time elapsed: 0 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The declared package "com.example" does not match the expected package ""
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+	Calculator cannot be resolved to a type
+
+	at CalculatorTest.<init>(CalculatorTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
