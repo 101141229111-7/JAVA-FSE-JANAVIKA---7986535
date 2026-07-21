@@ -1,0 +1,10 @@
+<h2>Welcome, {{ studentName }}!</h2>
+
+<input [(ngModel)]="studentName" placeholder="Enter your name">
+
+<app-student-details
+  [studentName]="studentName"
+  (notifyParent)="handleNotification($event)">
+</app-student-details>
+
+<p>{{ messageFromChild }}</p>

@@ -1,0 +1,26 @@
+<h2>Student Registration Form</h2>
+
+<form #studentForm="ngForm" (ngSubmit)="onSubmit()">
+  <!-- Name -->
+  <label>Name:</label>
+  <input type="text" name="name" [(ngModel)]="student.name" required minlength="3">
+  <div *ngIf="studentForm.submitted && !student.name">
+    Name is required.
+  </div>
+
+  <!-- Email -->
+  <label>Email:</label>
+  <input type="email" name="email" [(ngModel)]="student.email" required>
+  <div *ngIf="studentForm.submitted && !student.email">
+    Email is required.
+  </div>
+
+  <!-- Age -->
+  <label>Age:</label>
+  <input type="number" name="age" [(ngModel)]="student.age" required min="18">
+  <div *ngIf="studentForm.submitted && student.age !== null && student.age < 18">
+    Age must be at least 18.
+  </div>
+
+  <button type="submit">Register</button>
+</form>
