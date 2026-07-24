@@ -1,0 +1,10 @@
+h2 {
+  color: #1976d2;
+}
+button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}

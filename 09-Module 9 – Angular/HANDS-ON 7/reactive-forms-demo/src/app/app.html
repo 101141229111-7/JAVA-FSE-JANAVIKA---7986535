@@ -1,0 +1,23 @@
+<h2>Reactive Student Registration Form</h2>
+
+<form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+  <label>Name:</label>
+  <input type="text" formControlName="name">
+  <div *ngIf="studentForm.get('name')?.invalid && studentForm.get('name')?.touched">
+    Name is required (min 3 characters).
+  </div>
+
+  <label>Email:</label>
+  <input type="email" formControlName="email">
+  <div *ngIf="studentForm.get('email')?.invalid && studentForm.get('email')?.touched">
+    Enter a valid email.
+  </div>
+
+  <label>Age:</label>
+  <input type="number" formControlName="age">
+  <div *ngIf="studentForm.get('age')?.invalid && studentForm.get('age')?.touched">
+    Age must be at least 18.
+  </div>
+
+  <button type="submit" [disabled]="studentForm.invalid">Register</button>
+</form>

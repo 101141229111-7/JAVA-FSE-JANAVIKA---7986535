@@ -1,0 +1,10 @@
+# Default ignored files
+/../../LibraryManagement./.idea/shelf/
+/../../LibraryManagement./.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../LibraryManagement./.idea/httpRequests/
+# Ignored default folder with query files
+/../../LibraryManagement./.idea/queries/
+# Datasource local storage ignored files
+/../../LibraryManagement./.idea/dataSources/
+/../../LibraryManagement./.idea/dataSources.local.xml

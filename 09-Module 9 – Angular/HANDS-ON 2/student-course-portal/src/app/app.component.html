@@ -1,0 +1,7 @@
+<h2>Welcome, {{ studentName }}!</h2>
+
+<button (click)="showMessage()">Click Me</button>
+<p>{{ message }}</p>
+
+<input [(ngModel)]="studentName" placeholder="Enter your name">
+<p>Your name updates live: {{ studentName }}</p>

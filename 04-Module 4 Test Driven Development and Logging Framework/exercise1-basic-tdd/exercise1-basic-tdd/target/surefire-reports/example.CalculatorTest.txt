@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: example.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! -- in example.CalculatorTest
+example.CalculatorTest -- Time elapsed: 0.013 s <<< ERROR!
+java.lang.NoClassDefFoundError: Calculator
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:2917)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2247)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+Caused by: java.lang.ClassNotFoundException: Calculator
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	... 4 more
+
