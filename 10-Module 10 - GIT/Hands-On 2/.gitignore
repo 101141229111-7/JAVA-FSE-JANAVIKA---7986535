@@ -1,0 +1,12 @@
+# Ignore build and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore OS files
+Thumbs.db
+.DS_Store
