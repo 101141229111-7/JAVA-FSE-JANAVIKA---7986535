@@ -1,1 +1,2 @@
 File A content
+Updated content for fileA
